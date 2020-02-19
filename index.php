@@ -97,7 +97,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <!-- Left nav -->
               <ul id="main-menu" class="nav navbar-nav ml-auto mr-auto">
-                <li class="nav-item"> <a id="inicio" class="nav-link active" href="#">Inicio</a>
+                <li class="nav-item"> <a id="inicio" class="nav-link active" href="https://">Inicio</a>
                   <!--<ul>
                   <li><a href="">Menu 1</a>
                   </li>
