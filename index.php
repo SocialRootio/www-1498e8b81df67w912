@@ -199,6 +199,70 @@
           <h5 class=" wow fadeInDown" data-wow-duration="1.5s">La navaja suiza del marketing social</h5>
           <h1 class="mb-4 wow jackInTheBox" data-wow-duration="2s">Aumenta tus ventas con <span class="text-theme">Prueba Social</span></h1>
           <p class="lead mb-0 wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">SocialRoot es un <span class="text-theme">kit de herramientas multi-propósito</span> para tu sitio web. Te damos la posibilidad de crear confianza en tu marca, generar prospectos y aumentar tus ventas, con solo copiar y pegar nuestro código <p><p><font color="#81c701"><i class="fas fa-check-circle"></i></font> Empieza ahora <font color="#81c701"><i class="fas fa-check-circle"></i></font> Sin tarjeta de crédito</p>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="owl-carousel owl-theme" data-items="8" data-lg-items="6" data-md-items="6" data-sm-items="4" data-autoplay="true">
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/01.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/02.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/03.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/04.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/05.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/06.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/07.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class="post style-3">
+                        <div class="post-image">
+                          <img class="img-fluid h-100 w-100" src="images/blog/08.jpg" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -213,6 +277,8 @@
 <div class="page-content">
 
 <!--about start-->
+
+
 
 <section class="p-0 pos-r wow fadeInUp" data-wow-duration="2s" data-bg-img="images/pattern/03.png">
   <div id="que" class="container">
