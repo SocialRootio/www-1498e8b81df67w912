@@ -393,7 +393,7 @@
           <div class="card">
             <div class="card-header">
               <h6 class="mb-0">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><i class="fab fa-searchengin"></i> ¿Puedo cambiar de planes?</a>
+              <a data-toggle="collapse" data-parent="#accordion" href="#collapse4"><i class="fa fa-rocket"></i> ¿Puedo cambiar de planes?</a>
               </h6>
             </div>
             <div id="collapse4" class="collapse" data-parent="#accordion">
