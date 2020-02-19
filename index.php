@@ -48,6 +48,10 @@
 <!-- COLOR SCHEME -->
 <link href="css/theme-color/color-3.css" rel="stylesheet" type="text/css" />
 
+<!-- Pixel Code for https://app.socialroot.io/ -->
+<script async src="https://app.socialroot.io/pixel/3a5ab4396e06a584b2c7010df1ade3fa"></script>
+<!-- END Pixel Code -->
+
 </head>
 
 <body class="home-3">
