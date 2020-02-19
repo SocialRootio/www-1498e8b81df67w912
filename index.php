@@ -202,7 +202,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
-                  <div class="owl-carousel owl-theme" data-items="8" data-lg-items="6" data-md-items="6" data-sm-items="4" data-autoplay="true">
+                  <div class="owl-carousel owl-theme" data-items="5" data-lg-items="5" data-md-items="6" data-sm-items="4" data-autoplay="true">
                     <div class="item">
                       <div class="post style-3">
                         <div class="post-image">
