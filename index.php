@@ -137,7 +137,7 @@
                     </li>
                   </ul>-->
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#">¿Prueba social?</a>
+                <li class="nav-item"><a class="nav-link" href="https://app.socialroot.io/login">Panel de control</a>
                   <!--<ul>
                   <li><a href="">Menu 1</a>
                   </li>
@@ -149,7 +149,7 @@
                   </li>
                   </ul>-->
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="precios.php">Precios</a>
+                <li class="nav-item"> <a class="nav-link" href="pricing.php">Precios</a>
                   <!--<ul>
                   <li><a href="">Menu 1</a>
                   </li>
