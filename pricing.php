@@ -241,7 +241,7 @@
               <li><i class="fas fa-times"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-white btn-circle mt-4" href="#" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -267,7 +267,7 @@
               <li><i class="fas fa-times"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-theme btn-circle mt-4" href="#" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-theme btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -293,7 +293,7 @@
               <li><i class="fas fa-times"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-white btn-circle mt-4" href="#" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -319,7 +319,7 @@
               <li><i class="la la-check"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-white btn-circle mt-4" href="register.html" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
