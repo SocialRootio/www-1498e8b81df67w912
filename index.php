@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="HTML5 Template" />
 <meta name="description" content="Increase Your Website Conversions With This Awesome Social Proof Toolkit" />
-<meta name="author" content="www.socialroot.com" />
+<meta name="author" content="socialroot.io" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>SocialRooT.io - Extreme Social Proof Toolkit</title>
 
@@ -83,7 +83,7 @@
         <div class="col-lg-12">
           <!-- Navbar -->
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand logo" href="index.html">
+            <a class="navbar-brand logo" href="#">
               <img id="logo-img" class="img-center" src="images/logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span></span>
@@ -105,7 +105,7 @@
                   </li>
                   </ul>-->
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#widgets">Widgets</a>
+                <li class="nav-item"><a class="nav-link" href="#">Widgets</a>
                   <!--<ul>
                   <li><a href="">Menu 1</a>
                   </li>
@@ -133,7 +133,7 @@
                     </li>
                   </ul>-->
                 </li>
-                <li class="nav-item"><a class="nav-link" href="prueba-social.html">¿Prueba social?</a>
+                <li class="nav-item"><a class="nav-link" href="#">¿Prueba social?</a>
                   <!--<ul>
                   <li><a href="">Menu 1</a>
                   </li>
@@ -145,7 +145,7 @@
                   </li>
                   </ul>-->
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="precios.html">Precios</a>
+                <li class="nav-item"> <a class="nav-link" href="precios.php">Precios</a>
                   <!--<ul>
                   <li><a href="">Menu 1</a>
                   </li>
@@ -157,7 +157,7 @@
                   </li>
                   </ul>-->
                 </li>
-                <li class="nav-item"> <a class="nav-link" href="contactanos.html">Contactanos</a>
+                <li class="nav-item"> <a class="nav-link" href="#">Contactanos</a>
                   <!--<ul>
                     <li><a href="">Contact 1</a>
                     </li>
@@ -167,7 +167,7 @@
                 </li>
               </ul>-->
             </div>
-            <a class="btn btn-theme btn-sm" href="login.html" data-text="Ingresar"> <span>¡</span><span>Y</span><span>e</span><span>a</span><span>h!</span>
+            <a class="btn btn-theme btn-sm" href="https://app.socialroot.io/login" data-text="Ingresar"> <span>¡</span><span>Y</span><span>e</span><span>a</span><span>h!</span>
             </a>
           </nav>
         </div>
@@ -215,7 +215,7 @@
     <div class="row custom-mt-10">
       <div class="col-lg-8 col-md-12 ml-auto mr-auto">
       <center><div class="col-md-5">
-          <a href="register.html" class="btn btn-theme btn-block btn-circle" data-text="¡Regístrate gratis!"><span>¡</span><span>D</span><span>e</span>
+          <a href="https://app.socialroot.io/register" class="btn btn-theme btn-block btn-circle" data-text="¡Regístrate gratis!"><span>¡</span><span>D</span><span>e</span>
           <span> </span><span>V</span><span>e</span><span>r</span><span>d</span><span>a</span><span>d</span><span>!</span></a>
         </div></center>
         </div>
@@ -470,7 +470,7 @@
 </section>
 
 <center><div class="col-md-5">
-    <a href="register.html" class="btn btn-theme btn-block btn-circle" data-text="¡+25% de conversiones!"><span>¡</span><span>D</span><span>e</span>
+    <a href="https://app.socialroot.io/register" class="btn btn-theme btn-block btn-circle" data-text="¡+25% de conversiones!"><span>¡</span><span>D</span><span>e</span>
     <span> </span><span>V</span><span>e</span><span>r</span><span>d</span><span>a</span><span>d</span><span>!</span></a>
   </div></center>
 
@@ -551,7 +551,7 @@
 
 
 <center><div class="col-md-5">
-    <a href="register.html" class="btn btn-theme btn-block btn-circle" data-text="¡Regístrate gratis!"><span>¡</span><span>D</span><span>e</span>
+    <a href="https://app.socialroot.io/register" class="btn btn-theme btn-block btn-circle" data-text="¡Regístrate gratis!"><span>¡</span><span>D</span><span>e</span>
     <span> </span><span>V</span><span>e</span><span>r</span><span>d</span><span>a</span><span>d</span><span>!</span></a>
   </div></center>
 <!--step start
@@ -828,23 +828,23 @@ team end-->
         </div>
         <div class="col-lg-4 col-md-6 pl-md-5 sm-mt-5 footer-list justify-content-between d-flex">
           <ul class="list-unstyled w-100">
-            <li><a href="index.html">Inicio</a>
+            <li><a href="#">Inicio</a>
             </li>
-            <li><a href="servicios.html">Que ofrecemos</a>
+            <li><a href="#">Que ofrecemos</a>
             </li>
-            <li><a href="prueba-social.html">¿Prueba social?</a>
+            <li><a href="#">¿Prueba social?</a>
             </li>
-            <li><a href="precios.html">Precios</a>
+            <li><a href="precios.php">Precios</a>
             </li>
-            <li><a href="contactanos.html">Contactanos</a>
+            <li><a href="#">Contactanos</a>
             </li>
           </ul>
           <ul class="list-unstyled w-100">
-            <li><a href="faq.html">Faq</a>
+            <li><a href="#">Faq</a>
             </li>
-            <li><a href="privacy-policy.html">Privacy Policy</a>
+            <li><a href="privacidad.php">Políticas de privacidad</a>
             </li>
-            <li><a href="terms-and-conditions.html">Terms</a>
+            <li><a href="terminos.php">Términos y condiciones</a>
             </li>
           </ul>
         </div>
@@ -860,7 +860,7 @@ team end-->
     <div class="container">
       <div class="copyright">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12"> <span>Copyright 2020 <u><a href="#">Socialroot.io</a></u> | All Rights Reserved</span>
+          <div class="col-lg-6 col-md-12"> <span>Copyright 2020 <u><a href="#">Socialroot.io</a></u> | by Ayrton Nuñez with <i class="text-theme"><i color="theme" class="fas fa-heart"></i></i> and <i class="text-theme"><i color="theme" class="fas fa-coffee"></i></i></span>
           </div>
           <div class="col-lg-6 col-md-12 text-lg-right md-mt-3">
             <div class="footer-social">
