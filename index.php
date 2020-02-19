@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="HTML5 Template" />
-<meta name="description" content="HTML5 Template" />
+<meta name="description" content="Increase Your Website Conversions With This Awesome Social Proof Toolkit" />
 <meta name="author" content="www.socialroot.com" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>SocialRooT.io - Extreme Social Proof Toolkit</title>
