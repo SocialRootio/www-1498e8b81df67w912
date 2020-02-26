@@ -241,7 +241,7 @@
               <li><i class="fas fa-times"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/pay/0" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -267,7 +267,7 @@
               <li><i class="fas fa-times"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-theme btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-theme btn-circle mt-4" href="https://app.socialroot.io/pay/1" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -293,7 +293,7 @@
               <li><i class="fas fa-times"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/pay/2" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -319,7 +319,7 @@
               <li><i class="la la-check"></i> Marca personalizada</li>
             </ul>
           </div>
-          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/login" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
+          <a class="btn btn-white btn-circle mt-4" href="https://app.socialroot.io/pay/3" data-text="Elegir"> <span>¡Y</span><span>e</span><span>a</span><span>h</span><span>h</span><span>!</span>
           </a>
         </div>
       </div>
@@ -459,7 +459,7 @@
     <div class="container">
       <div class="copyright">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12"> <span>Copyright 2020 <u><a href="#">Socialroot.io</a></u> | by Ayrton Nuñez with <i class="text-theme"><i color="theme" class="fas fa-heart"></i></i> and <i class="text-theme"><i color="theme" class="fas fa-coffee"></i></i></span>
+          <div class="col-lg-6 col-md-12"> <span>Copyright 2020 <u><a href="#">Socialroot.io</a></u></span>
           </div>
           <div class="col-lg-6 col-md-12 text-lg-right md-mt-3">
             <div class="footer-social">

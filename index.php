@@ -932,7 +932,7 @@ team end-->
     <div class="container">
       <div class="copyright">
         <div class="row align-items-center">
-          <div class="col-lg-6 col-md-12"> <span>Copyright 2020 <u><a href="#">Socialroot.io</a></u> | by Ayrton Nuñez with <i class="text-theme"><i color="theme" class="fas fa-heart"></i></i> and <i class="text-theme"><i color="theme" class="fas fa-coffee"></i></i></span>
+          <div class="col-lg-6 col-md-12"> <span>Copyright 2020 <u><a href="#">Socialroot.io</a></u></span>
           </div>
           <div class="col-lg-6 col-md-12 text-lg-right md-mt-3">
             <div class="footer-social">
