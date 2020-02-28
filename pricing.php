@@ -284,7 +284,7 @@
           <div class="price-list">
             <ul class="list-unstyled">
               <li><i class="la la-check"></i> Sin anuncios</li>
-              <li><i class="la la-check"></i> Ilimitados Sitios web</li>
+              <li><i class="la la-check"></i> 1 Sitio web</li>
               <li><i class="la la-check"></i> Todos los estilos</li>
               <li><i class="la la-check"></i> Ilimitadas Notificaciones</li>
               <li><i class="la la-check"></i> 50.000 Impresiones</li>
@@ -310,7 +310,7 @@
           <div class="price-list">
             <ul class="list-unstyled">
               <li><i class="la la-check"></i> Sin anuncios</li>
-              <li><i class="la la-check"></i> 1 Sitio web</li>
+              <li><i class="la la-check"></i> Ilimitados sitios web</li>
               <li><i class="la la-check"></i> Todos los estilos</li>
               <li><i class="la la-check"></i> Ilimitadas Notificaciones</li>
               <li><i class="la la-check"></i> 200.000 Impresiones</li>
