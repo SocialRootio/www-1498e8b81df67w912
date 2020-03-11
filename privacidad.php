@@ -45,8 +45,6 @@
 
 <!-- inject css end -->
 
-<!-- COLOR SCHEME -->
-<link href="css/theme-color/color-3.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -55,24 +53,6 @@
 <!-- page wrapper start -->
 
 <div class="page-wrapper">
-
-<!-- preloader start -->
-
-<!-- <div id="ht-preloader">
-  <div class="loader clear-loader">
-    <div class="loader-box"></div>
-    <div class="loader-box"></div>
-    <div class="loader-box"></div>
-    <div class="loader-box"></div>
-    <div class="loader-wrap-text">
-      <div class="text"><span>S</span><span>O</span><span>F</span><span>T</span><span>I</span><span>N</span><span>O</span>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- preloader end -->
-
 
 <!--header start-->
 
@@ -94,78 +74,19 @@
               <!-- Left nav -->
               <ul id="main-menu" class="nav navbar-nav ml-auto mr-auto">
                 <li class="nav-item"> <a id="inicio" class="nav-link active" href="https://">Inicio</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                  </ul>-->
+
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">Widgets</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                    <li><a href="#">Element</a>
-                      <ul>
-                        <li><a href="">Menu 1</a>
-                        </li>
-                        <li><a href="">Menu 2</a>
-                        </li>
-                        <li><a href="">Menu 3</a>
-                        </li>
-                        <li><a href="">Menu 4</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="coming-soon.html">Coming Soon</a>
-                    </li>
-                    <li><a href="error-404.html">Error 404</a>
-                    </li>
-                  </ul>-->
+
                 </li>
                 <li class="nav-item"><a class="nav-link" href="https://app.socialroot.io/login">Panel de control</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                  </ul>-->
+
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="pricing.php">Precios</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                  </ul>-->
+
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="#">Contactanos</a>
-                  <!--<ul>
-                    <li><a href="">Contact 1</a>
-                    </li>
-                    <li><a href="">Contact 2</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>-->
+
             </div>
             <a class="btn btn-theme btn-sm" href="https://app.socialroot.io/login" data-text="Ingresar"> <span>¡</span><span>Y</span><span>e</span><span>a</span><span>h!</span>
             </a>

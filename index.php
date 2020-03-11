@@ -45,8 +45,7 @@
 
 <!-- inject css end -->
 
-<!-- COLOR SCHEME -->
-<link href="css/theme-color/color-3.css" rel="stylesheet" type="text/css" />
+
 
 
 
@@ -61,23 +60,6 @@
 <!-- page wrapper start -->
 
 <div class="page-wrapper">
-
-<!-- preloader start -->
-
-<!-- <div id="ht-preloader">
-  <div class="loader clear-loader">
-    <div class="loader-box"></div>
-    <div class="loader-box"></div>
-    <div class="loader-box"></div>
-    <div class="loader-box"></div>
-    <div class="loader-wrap-text">
-      <div class="text"><span>S</span><span>O</span><span>C</span><span>I</span><span>A</span><span>L</span>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- preloader end -->
 
 
 <!--header start-->
@@ -112,66 +94,15 @@
                   </ul>-->
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#">Widgets</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                    <li><a href="#">Element</a>
-                      <ul>
-                        <li><a href="">Menu 1</a>
-                        </li>
-                        <li><a href="">Menu 2</a>
-                        </li>
-                        <li><a href="">Menu 3</a>
-                        </li>
-                        <li><a href="">Menu 4</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li><a href="coming-soon.html">Coming Soon</a>
-                    </li>
-                    <li><a href="error-404.html">Error 404</a>
-                    </li>
-                  </ul>-->
                 </li>
                 <li class="nav-item"><a class="nav-link" href="https://app.socialroot.io/login">Panel de control</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                  </ul>-->
+
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="pricing.php">Precios</a>
-                  <!--<ul>
-                  <li><a href="">Menu 1</a>
-                  </li>
-                  <li><a href="">Menu 2</a>
-                  </li>
-                  <li><a href="">Menu 3</a>
-                  </li>
-                  <li><a href="">Menu 4</a>
-                  </li>
-                  </ul>-->
+
                 </li>
                 <li class="nav-item"> <a class="nav-link" href="#">Contactanos</a>
-                  <!--<ul>
-                    <li><a href="">Contact 1</a>
-                    </li>
-                    <li><a href="">Contact 2</a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>-->
+
             </div>
             <a class="btn btn-theme btn-sm" href="https://app.socialroot.io/login" data-text="Ingresar"> <span>¡</span><span>Y</span><span>e</span><span>a</span><span>h!</span>
             </a>
@@ -302,53 +233,6 @@
 </section>
 
 <!--about end-->
-
-<!--counter start-->
-
-<!-- <section class="bg-effect pos-r">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-6">
-        <div class="counter style-2">
-          <div class="counter-desc">
-         <span class="count-number" data-to="5000" data-speed="1500">5000</span>
-         <span>+</span>
-          <h5>Widgets instalados</h5>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 xs-mt-5">
-        <div class="counter style-2">
-          <div class="counter-desc">
-           <span class="count-number" data-to="25000" data-speed="1000">25000</span>
-           <span>+</span>
-          <h5>Notificaciones</h5>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 sm-mt-5">
-        <div class="counter style-2">
-          <div class="counter-desc">
-         <span class="count-number" data-to="850" data-speed="1000">850</span>
-         <span>+</span>
-          <h5>Clientes</h5>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 sm-mt-5">
-        <div class="counter style-2">
-          <div class="counter-desc">
-         <span class="count-number" data-to="4328" data-speed="10000">4328</span>
-         <span>+</span>
-          <h5>Happy Client</h5>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-<!--counter end-->
 
 <!--feature start-->
 
@@ -626,181 +510,6 @@
     <a href="https://app.socialroot.io/register" class="btn btn-theme btn-block btn-circle" data-text="¡Regístrate gratis!"><span>¡</span><span>D</span><span>e</span>
     <span> </span><span>V</span><span>e</span><span>r</span><span>d</span><span>a</span><span>d</span><span>!</span></a>
   </div></center>
-<!--step start
-
-<section class="dark-bg pos-r o-hidden text-center" data-bg-img="images/pattern/03.png">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 col-md-10 ml-auto mr-auto">
-        <div class="section-title">
-          <h2 class="title">¿Listo? Empieza YA en tres simples pasos</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-4 col-md-12">
-        <div class="work-process">
-          <div class="box-loader"> <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="step-num-box">
-            <div class="step-icon"><span><i class="la la-lightbulb-o"></i></span>
-            </div>
-            <div class="step-num">1</div>
-          </div>
-          <div class="step-desc">
-          <h4>Instala el script</h4>
-          <p class="mb-0">Tan fácil como copiar y pegar nuestro código en tu sitio.</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-12 md-mt-5">
-        <div class="work-process">
-          <div class="box-loader"> <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <div class="step-num-box">
-            <div class="step-icon"><span><i class="la la-rocket"></i></span>
-            </div>
-            <div class="step-num">2</div>
-          </div>
-          <div class="step-desc">
-          <h4>Crea las notificaciones</h4>
-          <p class="mb-0">Elige entre widgets informativos, cupones, visitantes en el sitio y más</p>
-        </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-12 md-mt-5">
-        <div class="work-process">
-          <div class="step-num-box">
-            <div class="step-icon"><span><i class="la la-check-square"></i></span>
-            </div>
-            <div class="step-num">3</div>
-          </div>
-          <div class="step-desc">
-          <h4>Aumenta las conversiones</h4>
-          <p class="mb-0">Sientate a ver como tu marca crece en todo sentido de manera exponencial</p>
-        </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-step end-->
-
-
-<!--team start
-
-<section class="pos-r o-hidden pb-2">
-  <div class="container">
-    <div class="row text-center">
-      <div class="col-lg-8 col-md-10 ml-auto mr-auto">
-        <div class="section-title">
-          <h2 class="title">Meet Our Expert <span class="text-theme">team member</span> will ready for your service</h2>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="owl-carousel owl-theme no-pb" data-dots="false" data-items="3" data-md-items="2" data-sm-items="1" data-autoplay="true">
-          <div class="item">
-            <div class="team-member style-3">
-              <div class="team-images">
-                <img class="img-fluid radius box-shadow" src="images/team/01.jpg" alt=""> <a class="team-link" href="team-single.html"><i class="la la-external-link"></i></a>
-              </div>
-              <div class="team-description"> <span>Manager</span>
-                <h5>Jemy Lusto</h5>
-                <div class="social-icons social-colored circle team-social-icon">
-                  <ul>
-                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                    <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="team-member style-3">
-              <div class="team-images">
-                <img class="img-fluid radius box-shadow" src="images/team/02.jpg" alt=""> <a class="team-link" href="team-single.html"><i class="la la-external-link"></i></a>
-              </div>
-              <div class="team-description"> <span>Manager</span>
-                <h5>Tom Roadse</h5>
-                <div class="social-icons social-colored circle team-social-icon">
-                  <ul>
-                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                    <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="team-member style-3">
-              <div class="team-images">
-                <img class="img-fluid radius box-shadow" src="images/team/03.jpg" alt=""> <a class="team-link" href="team-single.html"><i class="la la-external-link"></i></a>
-              </div>
-              <div class="team-description"> <span>Manager</span>
-                <h5>Lana Dior</h5>
-                <div class="social-icons social-colored circle team-social-icon">
-                  <ul>
-                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                    <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="item">
-            <div class="team-member style-3">
-              <div class="team-images">
-                <img class="img-fluid radius box-shadow" src="images/team/04.jpg" alt=""> <a class="team-link" href="team-single.html"><i class="la la-external-link"></i></a>
-              </div>
-              <div class="team-description"> <span>Manager</span>
-                <h5>James Lynn</h5>
-                <div class="social-icons social-colored circle team-social-icon">
-                  <ul>
-                    <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a>
-                    </li>
-                    <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li class="social-gplus"><a href="#"><i class="fab fa-google-plus-g"></i></a>
-                    </li>
-                    <li class="social-linkedin"><a href="#"><i class="fab fa-linkedin-in"></i></a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-team end-->
 
 <!--faq start-->
 
