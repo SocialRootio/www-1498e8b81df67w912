@@ -131,7 +131,7 @@
         <div class="col-lg-6 col-md-12 md-mt-5 md-mb-5">
           <h5 class=" wow fadeInDown" data-wow-duration="1.5s">La navaja suiza del marketing social</h5>
           <h1 class="mb-4 wow jackInTheBox" data-wow-duration="2s">Aumenta tus ventas con <span class="text-theme">Prueba Social</span></h1>
-          <p class="lead mb-0 wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">SocialRoot es un <span class="text-theme">kit de herramientas multi-propósito</span> para tu sitio web. Te damos la posibilidad de crear confianza en tu marca, generar prospectos y aumentar tus ventas, con solo copiar y pegar nuestro código <p><p><font color="#81c701"><i class="fas fa-check-circle"></i></font> Empieza ahora <font color="#81c701"><i class="fas fa-check-circle"></i></font> Sin tarjeta de crédito</p>
+          <p class="lead mb-0 wow fadeInUp" data-wow-duration="3s" data-wow-delay="0.3s">SocialRoot es un <span class="text-theme">kit de herramientas multi-propósito</span> <b>adaptable a todos los sitios web</b>. Te damos la posibilidad de crear confianza en tu marca, generar prospectos y aumentar tus ventas, con solo copiar y pegar nuestro código <p><p><font color="#81c701"><i class="fas fa-check-circle"></i></font> Empieza ahora <font color="#81c701"><i class="fas fa-check-circle"></i></font> Sin tarjeta de crédito</p>
             <div class="container">
               <div class="row">
                 <div class="col-md-12">
