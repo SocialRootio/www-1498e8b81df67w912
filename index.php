@@ -1,4 +1,8 @@
+
+
 <!DOCTYPE html>
+
+<meta http-equiv="refresh" content="0;URL='https://app.socialroot.io/'" /> 
 <html lang="es">
 <head>
 <meta charset="utf-8">
