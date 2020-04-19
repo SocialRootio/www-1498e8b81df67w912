@@ -35,7 +35,7 @@ $DataBody = array(
 );
 
 // Comprimimos el $DataBody a JSON
-$Payload = json_encode($DataBody);
+//$Payload = json_encode($DataBody);
 
   // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
 $Options = array(
@@ -44,13 +44,14 @@ $Options = array(
 );
 
 //Enviamos todo para recibir el Access_token y el Store_ID
-$Response = Requests::post("https://www.tiendanube.com/apps/authorize/token", $Options, $Payload );
+$Response = Requests::post("https://www.tiendanube.com/apps/authorize/token", $Options, $DataBody );
 
 
 print_r($Response);
 
+$DataReponseDecode = $Response;
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
-$DataReponseDecode = json_decode($Response, true);
+//$DataReponseDecode = json_decode($Response, true);
 
 // Seteamos que la preferencia para crear el Webhook de TN sea ORDER/CREATED
 $PreferenceToUser = "order/created";
