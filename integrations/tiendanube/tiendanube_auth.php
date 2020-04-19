@@ -31,7 +31,7 @@ if(!isset($_GET["user_id"])){
   //Seteamos el cuerpo del mensaje que vamos a enviar luego
 $Body = array(
         'code' => $mCode, // Le mandamos el code que recibimos antes
-        'grant_type' => "authorization_code", // Esto lo requiere TiendaNube
+        'grant_type' => 'authorization_code', // Esto lo requiere TiendaNube
         'client_secret' => "CRLWSO1XkkV7OlZ65bHFLSzPS0g6EwAbVQuDmYMWPIwiYWrW", // CLient_secret de la app
         'client_id' => "1516" // ID de la app
 );
@@ -39,7 +39,7 @@ $Body = array(
 
   // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
 $Headers = array(
-      'Content-Type' => 'application/json'
+      'Content-Type' => ' application/x-www-form-urlencoded'
 );
 
 //Enviamos todo y recibimos el Access_token y el Store_ID
