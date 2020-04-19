@@ -39,7 +39,7 @@ $Body = array(
 );
   // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
 $Headers = array(
-      'Content-Type' => ' application/x-www-form-urlencoded'
+      'Content-Type' => 'application/json'
 );
 
 
