@@ -48,10 +48,14 @@ $TokenStore_Response = Requests::post($Url, $Headers, $Body);
 var_dump($TokenStore_Response);
 
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
-$Decoded_TokenStore_Response = json_decode($Token_and_StoreID_Response, true);
+$Decoded_TokenStore_Response = json_decode($TokenStore_Response, true);
 
 // ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
 // ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
+
+echo $Decoded_TokenStore_Response["user_id"]." -> Esta es la user ID \n";
+echo $Decoded_TokenStore_Response["access_token"]." -> Esta es la Access Token \n";
+echo $_GET["callback"];
 
 
 // Llamamos al objeto ConnectionMySQL incluido en con_mysql.php
