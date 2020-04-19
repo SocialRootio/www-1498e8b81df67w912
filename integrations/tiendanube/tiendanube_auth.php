@@ -46,6 +46,9 @@ $Options = array(
 //Enviamos todo para recibir el Access_token y el Store_ID
 $Response = Requests::post("https://www.tiendanube.com/apps/authorize/token", $Options, $Payload );
 
+
+print_r($Response);
+
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
 $DataReponseDecode = json_decode($Response, true);
 
