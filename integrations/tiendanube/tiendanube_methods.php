@@ -3,6 +3,9 @@
 // Crea el metodo para tomar storeid, token y webhook..
 function SetWebHookOnTiendaNube($StoreId, $Token, $WebHookUrl, $TypePreference){
 
+  // Seteamos que la preferencia para crear el Webhook de TN sea ORDER/CREATED
+  $PreferenceToUser = "order/created";
+
     if(!isset($TypePreference)){
       file_put_contents( 'ErrorPreferences.log', "No exsite la variable TypePreference");
       die();

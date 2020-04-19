@@ -11,9 +11,11 @@ Requests::register_autoloader();
 
 //Recibimos el code desde TiendaNube
 $mCode = $_GET["code"];
+// Definimos la URL para tomar el token
+$Url = "https://www.tiendanube.com/apps/authorize/token";
 
 //Chequeamos si NO esta seteado el USER ID
-// Leemos las cookies de USER_ID y WEBHOOK creadas en la integración.
+// Leemos las cookies de USER_ID y WEBHOOK creadas en Settigs-method.php.
 if(!isset($_GET["user_id"])){
   ?>
   <script>
@@ -27,34 +29,34 @@ if(!isset($_GET["user_id"])){
 }
 
   //Seteamos el cuerpo del mensaje que vamos a enviar luego
-$DataBody = array(
+$Body = array(
         'code' => $mCode, // Le mandamos el code que recibimos antes
         'grant_type' => "authorization_code", // Esto lo requiere TiendaNube
         'client_secret' => "CRLWSO1XkkV7OlZ65bHFLSzPS0g6EwAbVQuDmYMWPIwiYWrW", // CLient_secret de la app
         'client_id' => "1516" // ID de la app
 );
 
-// Comprimimos el $DataBody a JSON
-//$Payload = json_encode($DataBody);
 
   // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
-$Options = array(
-      'Content-Type' => 'application/json',
-      'Content-Length:' => strlen($Payload)
+$Headers = array(
+      'Content-Type' => 'application/json'
 );
 
-//Enviamos todo para recibir el Access_token y el Store_ID
-$Response = Requests::post("https://www.tiendanube.com/apps/authorize/token", $Options, $DataBody );
+//Enviamos todo y recibimos el Access_token y el Store_ID
+$TokenStore_Response = Requests::post($Url, $Headers, $Body);
 
+print_r($TokenStore_Response\n);
 
-print_r($Response);
-
-$DataReponseDecode = $Response;
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
-//$DataReponseDecode = json_decode($Response, true);
+$Decoded_TokenStore_Response = json_decode($Token_and_StoreID_Response, true);
 
-// Seteamos que la preferencia para crear el Webhook de TN sea ORDER/CREATED
-$PreferenceToUser = "order/created";
+print_r($Decoded_TokenStore_Response);
+
+// ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
+// ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
+
+
+// Llamamos al objeto ConnectionMySQL incluido en con_mysql.php
 
 // Crea el Usuario en la tabla TiendaNube y agrega los datos de StoreID y AccessToken.
 //SetWebHookOnTiendaNube($DataReponseDecode["user_id"], $DataReponseDecode["access_token"], $_GET["callback"], $PreferenceToUser);

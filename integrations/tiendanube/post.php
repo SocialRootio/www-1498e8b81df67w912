@@ -17,13 +17,16 @@ $DataBody = array(
 );
 
 // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
-$Options = array(
-    'Content-Type' => 'application/json',
-    'Content-Length:' => strlen($DataBody)
-);
+
+
+$url = 'https://socialroot.requestcatcher.com/';
+$headers = array('Content-Type' => 'application/json');
+
+
+
 
 // Now let's make a request!
-$request = Requests::post('https://socialroot.requestcatcher.com/', $Options, $DataBody);
+$request = Requests::post($url, $headers, $Body);
 
 // Check what we received
 var_dump($request);
