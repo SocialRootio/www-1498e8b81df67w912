@@ -40,7 +40,7 @@ $Payload = json_encode($DataBody);
   // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
 $Options = array(
       'Content-Type' => 'application/json',
-      'Content-Length:' => strlen($payload))
+      'Content-Length:' => strlen($Payload)
 );
 
 //Enviamos todo para recibir el Access_token y el Store_ID
