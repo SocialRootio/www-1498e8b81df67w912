@@ -11,3 +11,5 @@ $request = Requests::post('http://httpbin.org/post', array(), array('mydata' => 
 
 // Check what we received
 var_dump($request);
+
+?>
