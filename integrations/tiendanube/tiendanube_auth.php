@@ -57,6 +57,6 @@ $DataReponseDecode = $Response;
 $PreferenceToUser = "order/created";
 
 // Crea el Usuario en la tabla TiendaNube y agrega los datos de StoreID y AccessToken.
-SetWebHookOnTiendaNube($DataReponseDecode["user_id"], $DataReponseDecode["access_token"], $_GET["callback"], $PreferenceToUser);
+//SetWebHookOnTiendaNube($DataReponseDecode["user_id"], $DataReponseDecode["access_token"], $_GET["callback"], $PreferenceToUser);
 
 ?>
