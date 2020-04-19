@@ -11,8 +11,7 @@ Requests::register_autoloader();
 
 //Recibimos el code desde TiendaNube
 $mCode = $_GET["code"];
-// Definimos la URL para tomar el token
-$Url = "https://www.tiendanube.com/apps/authorize/token";
+
 
 //Chequeamos si NO esta seteado el USER ID
 // Leemos las cookies de USER_ID y WEBHOOK creadas en Settigs-method.php.
@@ -28,6 +27,9 @@ if(!isset($_GET["user_id"])){
   exit();
 }
 
+
+// Definimos la URL para tomar el token
+$Url = "https://www.tiendanube.com/apps/authorize/token";
   //Seteamos el cuerpo del mensaje que vamos a enviar luego
 $Body = array(
         'code' => $mCode, // Le mandamos el code que recibimos antes
@@ -35,20 +37,14 @@ $Body = array(
         'client_secret' => "CRLWSO1XkkV7OlZ65bHFLSzPS0g6EwAbVQuDmYMWPIwiYWrW", // CLient_secret de la app
         'client_id' => "1516" // ID de la app
 );
-
-
   // Avisamos que vamos a enviar contenido en jSon. y contamos los caracteres de $payload
 $Headers = array(
       'Content-Type' => ' application/x-www-form-urlencoded'
 );
 
+
 //Enviamos todo y recibimos el Access_token y el Store_ID
 $TokenStore_Response = Requests::post($Url, $Headers, $Body);
-
-if(Requests::post("https://socialroot.requestcatcher.com/", $Headers, $TokenStore_Response)){
-  echo "Enviado a RequestCatcher";
-}
-
 
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
 $Decoded_TokenStore_Response = json_decode($TokenStore_Response, true);
