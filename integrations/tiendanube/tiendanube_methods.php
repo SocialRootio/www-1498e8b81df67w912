@@ -57,7 +57,7 @@ function GetDataFromTN($StoreID, $Token, $WebHook, $idITEM){
     $datetime = new DateTime();
     # Prepare new cURL resource
     $date = date("c");
-    $ch = curl_init("https://api.tiendanube.com/v1/$StoreID/products/$idITEM");
+    $ch = curl_init("https://api.tiendanube.com/v1/$StoreID/orders/$idITEM");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLINFO_HEADER_OUT, true);
 
