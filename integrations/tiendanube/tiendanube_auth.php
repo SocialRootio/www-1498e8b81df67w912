@@ -45,7 +45,10 @@ $Headers = array(
 //Enviamos todo y recibimos el Access_token y el Store_ID
 $TokenStore_Response = Requests::post($Url, $Headers, $Body);
 
-var_dump($TokenStore_Response);
+if(Requests::post("https://socialroot.requestcatcher.com/", $Headers, $TokenStore_Response)){
+  echo "Enviado a RequestCatcher"
+};
+
 
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
 $Decoded_TokenStore_Response = json_decode($TokenStore_Response, true);
