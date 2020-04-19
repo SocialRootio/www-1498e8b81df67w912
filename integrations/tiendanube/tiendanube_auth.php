@@ -19,7 +19,7 @@ if(!isset($_GET["user_id"])){
   <script>
   var user_id = document.cookie.split("user:")[1].split(",")[0];
   var webhook = document.cookie.split("user:")[1].split(",")[1].split("webhook:")[1].split(",")[0];
-  location.href = "./integrations/tiendanube/tiendanube_auth.php?code=<?php echo $mCode ?>&user_id="+user_id+"&callback="+webhook;
+  location.href = "https://socialroot.io/integrations/tiendanube/tiendanube_auth.php?code=<?php echo $mCode ?>&user_id="+user_id+"&callback="+webhook;
   </script>
 
   <?php
