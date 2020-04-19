@@ -45,7 +45,7 @@ $Headers = array(
 //Enviamos todo y recibimos el Access_token y el Store_ID
 $TokenStore_Response = Requests::post($Url, $Headers, $Body);
 
-print_r($TokenStore_Response\n);
+print_r($TokenStore_Response);
 
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
 $Decoded_TokenStore_Response = json_decode($Token_and_StoreID_Response, true);
