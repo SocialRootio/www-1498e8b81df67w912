@@ -45,12 +45,10 @@ $Headers = array(
 //Enviamos todo y recibimos el Access_token y el Store_ID
 $TokenStore_Response = Requests::post($Url, $Headers, $Body);
 
-print_r($TokenStore_Response);
+var_dump($request);
 
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
 $Decoded_TokenStore_Response = json_decode($Token_and_StoreID_Response, true);
-
-print_r($Decoded_TokenStore_Response);
 
 // ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
 // ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
