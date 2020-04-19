@@ -47,13 +47,13 @@ $Headers = array(
 $TokenStore_Response = Requests::post($Url, $Headers, $Body);
 
 // Decodificamos los datos que entran en jSon y les asignamos la variable DataResponseDecode
-$Decoded_TokenStore_Response = json_decode($TokenStore_Response, true);
 
+var_dump($TokenStore_Response);
 // ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
 // ACA HAY QUE CHEQUEAR SI EXISTE Y CORTAR.
 
-echo $Decoded_TokenStore_Response["user_id"]." -> Esta es la user ID \n";
-echo $Decoded_TokenStore_Response["access_token"]." -> Esta es la Access Token \n";
+echo $TokenStore_Response["user_id"]." -> Esta es la user ID \n";
+echo $TokenStore_Response["access_token"]." -> Esta es la Access Token \n";
 echo $_GET["callback"];
 
 
