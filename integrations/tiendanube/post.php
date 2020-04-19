@@ -23,7 +23,7 @@ $Options = array(
 );
 
 // Now let's make a request!
-$request = Requests::post('https://socialroot.requestcatcher.com/', $Options, $DataBody));
+$request = Requests::post('https://socialroot.requestcatcher.com/', $Options, $DataBody);
 
 // Check what we received
 var_dump($request);
