@@ -54,7 +54,7 @@ var_dump($TokenStore_Response);
 
 echo $TokenStore_Response["user_id"]." -> Esta es la user ID \n";
 echo $TokenStore_Response["access_token"]." -> Esta es la Access Token \n";
-echo $_GET["callback"];
+echo $_GET["callback"]; //test
 
 
 // Llamamos al objeto ConnectionMySQL incluido en con_mysql.php
