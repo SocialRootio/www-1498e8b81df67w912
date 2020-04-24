@@ -3,9 +3,6 @@
 // Crea el metodo para tomar storeid, token y webhook..
 function SetWebHookOnTiendaNube($StoreId, $Token, $WebHookUrl, $TypePreference){
 
-  // Seteamos que la preferencia para crear el Webhook de TN sea ORDER/CREATED
-  $PreferenceToUser = "order/created";
-
     if(!isset($TypePreference)){
       file_put_contents( 'ErrorPreferences.log', "No exsite la variable TypePreference");
       die();
@@ -54,13 +51,9 @@ function SetWebHookOnTiendaNube($StoreId, $Token, $WebHookUrl, $TypePreference){
 
 
 
-function GetDataFromTN($StoreID, $Token, $WebHook, $idITEM){
+function GetDataFromTN($StoreID, $Token, $WebHook, $idITEM, $type){
 
-
-    $datetime = new DateTime();
-    # Prepare new cURL resource
-    $date = date("c");
-    $ch = curl_init("https://api.tiendanube.com/v1/$StoreID/orders/$idITEM");
+    $ch = curl_init("https://api.tiendanube.com/v1/$StoreID/$type/$idITEM");
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
     curl_setopt($ch, CURLINFO_HEADER_OUT, true);
 
