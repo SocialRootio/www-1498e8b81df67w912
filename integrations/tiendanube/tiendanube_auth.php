@@ -85,10 +85,14 @@ while( $fila = mysqli_fetch_assoc($ResultUser) ){
 //Inicializamos un SQL global
 $SQL = null;
 
-// Si existe el store_id, modificamos el access token, de lo contrario, lo agregamos.
+// Si existe el store_id, modificamos el access token y ventas, de lo contrario, lo agregamos.
 if($isOnList){
+  $WebookCallBack = $_GET['callback'];
   $SQL = "UPDATE tiendanube
-  SET access_token = '$tn_Access_Token'
+  SET access_token = '$tn_Access_Token',
+  ventas_active = 0,
+  productos_active = 0,
+  tn_webhook = '$WebookCallBack'
   WHERE storeid = '$tn_idTienda'";
 
 }else{
